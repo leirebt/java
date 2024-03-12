@@ -8,7 +8,7 @@ public class ConexionBaseDatos {
 
     private static String url = "jdbc:mysql://localhost:3306/baseDatos";
     private static String username = "root";
-    private static String password = "root";
+    private static String password = "****";
     private static Connection con;
 
     public static Connection getInstance() throws SQLException {
